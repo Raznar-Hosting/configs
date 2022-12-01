@@ -1,0 +1,54 @@
+###################################################################
+#                                                                 #
+#                       Raznar FiveM Join Bot                     #
+#                                                                 #
+#   Made by raznar.id & Orume Studios                             #
+#   Exclusively made for Raznar's FiveM Clients                   #
+###################################################################
+
+discordBot:
+  adminsRoleID: [""]
+  token: "PUT_YOUR_TOKEN_HERE"
+  status: online
+  activity:
+    enable: true
+    url: https://raznar.id
+    name: "Raznar RP (%player%/64)"
+    type: PLAYING
+    playerUpdates:
+      # Update player di status nya tiap detik
+      updateInterval: 30
+      serverName: Raznar RP
+connectEmbed:
+  # Warna Embed - ref: https://gist.github.com/thomasbnt/b6f455e2c7d743b796917fa3c205f812
+  color: "Red"
+  title: Connect Server
+  description: 
+    - "Connect Server dibawah!"
+    - ""
+    - ""
+  thumbnail: "THUMBNAIL_URL_HERE"
+playersEmbed:
+  # Warna Embed - ref: https://gist.github.com/thomasbnt/b6f455e2c7d743b796917fa3c205f812
+  color: "Red"
+  title: Connect Server
+  description: 
+    - "Connect Server dibawah!"
+    - ""
+    - "%server_raznarrp_name% - %server_raznarrp_players%x Players"
+  thumbnail: "THUMBNAIL_URL_HERE"
+servers:
+  - name: Raznar RP
+    host: fivem.raznar.id # Change to your host
+    port: 30120
+    button:
+      label: "%name%"
+      style: url
+      url: http://%host%:%port%
+  - name: Raznar TDM
+    host: fivem-tdm.raznar.id # Change to your host
+    port: 30120
+    button:
+      label: "%name%"
+      style: url
+      url: http://%host%:%port%
