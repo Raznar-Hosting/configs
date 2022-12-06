@@ -42,6 +42,7 @@ servers:
     host: fivem.raznar.id # Change to your host
     hostListing: fivem.raznar.id # Change to your host
     port: 30120
+    onlyShowInPortal: false
     ssl: false
     button:
       label: "%name%"
@@ -51,6 +52,7 @@ servers:
     host: fivem-tdm.raznar.id # Change to your host
     hostListing: fivem.raznar.id # Change to your host
     port: 30120
+    onlyShowInPortal: true
     ssl: false
     button:
       label: "%name%"
