@@ -41,6 +41,7 @@ servers:
   - name: Raznar RP
     host: fivem.raznar.id # Change to your host
     port: 30120
+    ssl: false
     button:
       label: "%name%"
       style: url
@@ -48,6 +49,7 @@ servers:
   - name: Raznar TDM
     host: fivem-tdm.raznar.id # Change to your host
     port: 30120
+    ssl: false
     button:
       label: "%name%"
       style: url
